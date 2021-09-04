@@ -1,0 +1,37 @@
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+    width: 15vh;
+    height: 15vh;
+    border: 1px solid rgb(56, 56, 155);
+    flex: 0 1 auto;
+    background: radial-gradient(#fff, #9198e5);
+    margin: 3px;
+    box-shadow: 0 2px #999;
+}
+
+h1 {
+    text-align: center;
+}
+
+button:active {
+    background: radial-gradient(#9198e5, #fff);
+    border: 1px solid white;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+/* makes perpetual bubble popping */
+/* button:focus {
+    /* background: radial-gradient(#9198e5, #fff);
+    border: 1px solid white; */
+/* } */ 
+
+.container {
+    border: 3px solid rgb(56, 56, 155);
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #9198e5;
+}
